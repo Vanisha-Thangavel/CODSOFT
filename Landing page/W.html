@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W Academy</title>
+    <link rel="stylesheet" href="w style.css">
+    <link rel="icon" href="w.jpeg">
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <h1 style="font-size: 40px; font-family: unset; font-weight: inherit; font-style: oblique;">W Academy</h1>
+        <div class="head1" style="display: inline;">
+        <a href="#home" class="top" style="margin-left: 50%; padding-right: 10px;"> Home</a>
+        <a href="#overview" class="top" style="padding-right: 10px;">Overview</a>
+        <a href="#courses" class="top" style="padding-right: 10px;">Courses</a>
+        <a href="#contact" class="top" style="padding-right: 10px;">Contact us</a>
+        </div>
+            </div>
+
+    <div class="home" id="home">
+        <div class="home1">
+            <h2>Web Design/Development Course</h2>
+            </div>
+            <div class="home2">
+        <p style="letter-spacing: 1px;">W Academy is Globally Recognised as the Market Leader in providing Web Development/Design Training courses to organisations and professionals. Our "Web Development Expert Team" comprises over 34 leading professionals with over 14 years of industry-recognised experience developing both client-side and server-side web applications. Our specialised instructors have developed unique teaching styles to help aspiring candidates gain the ability to design complete websites and web applications. Over the last decade, web design expectations have shifted dramatically, with many businesses now expecting their Web Developers to be multi-skilled masters.</p>
+        </div>
+        <div class="img">
+        <img src="home.png" height="410px" width="50%" >
+    </div>
+    </div>
+
+<div class="overview" id="overview">
+       <div class="ov">
+        <h1  style="font-family: cursive;">Overview</h1>
+        </div>
+    <div class="para">
+        <p style="font-family: cursive;">Web Development refers to designing, developing, and maintaining websites, including different aspects such as Web design, publishing, development, and database management. Our industry experts design our Web Development/Design training courses to provide delegates with a comprehensive understanding of the technologies required to become a Web Developer. These training courses will allow professionals to efficiently develop internet-based applications, such as websites and businesses, to boost brand recognition and identity effectively. Attending these Web Development/Design training courses will help delegates to gain in-depth knowledge and skills to add unique features to their applications and become successful Web Developers.</p>
+    </div>
+    <div class="img"></div>
+    <img src="web.png" height="380px" width="80%" >
+    </div>    
+</div>
+
+<div class="courses" id="courses">
+    <div class="skill">
+    <h2 style="font-family: cursive; font-style: normal; padding: 20px;">Highly Demanded Skill Enhancement Courses</h2>
+    </div>
+    <div class="button">
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">Introduction to Html</button>
+    <button style="display: inline; padding: 20px;margin: 10px;border-radius: 12px;">CSS Introduction & Intermediate</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">UX / UI Design Jumpstart</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">Mobile App Development Training</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">WordPress Essentials</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">Javascript & JQuery Masterclass</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">Web Development Training With TypeScript</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">Mobile App Development Training Using Flutter</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">React Native Training</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">Responsive Web Design Training</button>
+    <button style="display: inline;padding: 20px;margin: 10px;border-radius: 12px;">PHP Programming</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">R Programming</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">Bootstrap Training</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">ReactJS And Redux Training</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">.NET Programming Training</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">C# And .NET Training</button>
+    <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">Python Game Development Training With Pygame</button>
+        
+    </div>
+</div>
+
+    <div class="Contact" id="contact">
+        <div class="detail">
+            <h1  style="font-family: cursive;">Contact</h1>
+        </div>
+        <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px; margin-top: 50px;">Phn: 9876543210</button>         
+        <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">Email: wacademy@gmail.com</button>         
+        <button style="display: inline; padding: 20px; margin: 10px;border-radius: 12px;">Website: www.wacademy.com</button>         
+
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+        
+</body>
+</html>
