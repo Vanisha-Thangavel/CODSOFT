@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(135, 199, 110);
+background-attachment: scroll;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    padding-left: 2px;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    max-width:1600px;
+    min-width:500px;
+}
+h1{
+    margin-left: 5px;
+    display: inline;
+}
+.top{
+    color: whitesmoke;
+    text-decoration-line: none;
+    letter-spacing: 4px;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
+    cursor: pointer;
+    font-style: oblique;
+}
+.img{
+    margin-left: 100px;
+}
+.me{
+    margin-left: 30%;
+    background-color: rgb(108, 175, 108); 
+    padding: 10px;
+}
+.hello{
+    margin-left: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+.skills{
+    margin-top: 45px;
+}
+button{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(113, 216, 113);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.html{
+    margin-left: 150px;
+}
+.css{
+margin-left: 135px;
+}
+.python{
+margin-left: 75px;
+}
+.dbms{
+    margin-left: 150px;
+}
+.pi{
+    margin-left: 40%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
